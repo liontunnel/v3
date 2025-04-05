@@ -84,7 +84,7 @@ clear
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/Eritsuu/Joy/main/daftar"
+data_ip="https://raw.githubusercontent.com/liontunnel/Joy/main/daftar"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
@@ -98,7 +98,7 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      ${GREEN}TELEGRAM${NC} t.me/EritsuCH"
+    echo -e "      ${GREEN}TELEGRAM${NC} t.me/FanoraVpnTunnel"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit 0
   fi
@@ -107,12 +107,12 @@ checking_sc
   # // Banner
 echo -e "${YELLOW}────────────────────────────────────────────${NC}"
 sleep 0.6 & loading $!
-echo -e " WELCOME TO ERITSU VPN SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
+echo -e " WELCOME TO LION VPN SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 sleep 0.6 & loading $!
 echo -e "${Green}[INFO] Sedang Memeriksa IP Address Tuan !!${NC}"
 sleep 0.6 & loading $!
 echo -e "${purple}────────────────────────────────────────────${NC}"
-echo -e " AUTHOR : ${green}ERITSU VPN ${NC}${YELLOW}(${NC}${green}V 1.0${NC}${YELLOW})${NC}"
+echo -e " AUTHOR : ${green}LION VPN ${NC}${YELLOW}(${NC}${green}V 1.0${NC}${YELLOW})${NC}"
 echo -e " TEAM ERITSU VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}────────────────────────────────────────────${NC}"
 echo ""
@@ -166,7 +166,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/ZeynDev/cona/main/"
+    REPO="https://raw.githubusercontent.com/liontunnel/v3/main/"
 
 
 function is_root() {
