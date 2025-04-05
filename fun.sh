@@ -355,8 +355,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-1002043665914"
-KEY="7066738088:AAF9_fs-JXCq6nVmgAaX64ArA2LWkD3RCm0"
+CHATID="-7280668462"
+KEY="8130517383:AAGOMlndrTyjpZpmVS8E4pkXVzYwfF1OyDU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -373,9 +373,9 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
 <i>Automatic Notifications From</i>
-<b>My ERI</b>
+<b>My LION</b>
 <code>────────────────────</code>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/Eritsuu"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/FanoraVpnTunnel"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -571,7 +571,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 }
 
 function udp_mini(){
-wget -q https://raw.githubusercontent.com/ZeynDev/cona/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/liontunnel/v3/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
@@ -1036,7 +1036,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY ERITSU ]-==============="
+echo "===============-[ SCRIPT BY LIONTUNNEL ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
