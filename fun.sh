@@ -113,7 +113,7 @@ echo -e "${Green}[INFO] Sedang Memeriksa IP Address Tuan !!${NC}"
 sleep 0.6 & loading $!
 echo -e "${purple}────────────────────────────────────────────${NC}"
 echo -e " AUTHOR : ${green}LION VPN ${NC}${YELLOW}(${NC}${green}V 1.0${NC}${YELLOW})${NC}"
-echo -e " TEAM ERITSU VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " TEAM LION VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}────────────────────────────────────────────${NC}"
 echo ""
 sleep 2
