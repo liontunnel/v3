@@ -1,15 +1,15 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=S+C+R+I+P+T+ㅤBYㅤ+ERITSU+V+P+N+" />
+<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=S+C+R+I+P+T+ㅤBYㅤ+LION+V+P+N+" />
 </p>
 
 ### INSTALL SCRIPT 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/ZeynDev/cona/main/fun.sh && chmod +x fun.sh && ./fun.sh
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/liontunnel/v3/main/fun.sh && chmod +x fun.sh && ./fun.sh
 ```
 
 ## UPDATE SCRIPT
 ```
-wget -q https://raw.githubusercontent.com/ZeynDev/cona/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://raw.githubusercontent.com/liontunnel/v3/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 ### SUPPORT OS LINUX
