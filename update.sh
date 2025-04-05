@@ -27,13 +27,13 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/ZeynDev/cona/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/liontunnel/v3/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
-    wget -qO- fv-tunnel "https://raw.githubusercontent.com/ZeynDev/cona/main/config/fv-tunnel" 
+    wget -qO- fv-tunnel "https://raw.githubusercontent.com/liontunnel/v3/main/config/fv-tunnel" 
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
