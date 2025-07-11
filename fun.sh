@@ -1046,6 +1046,3 @@ echo -ne "[ ${yell}COMPLETED${NC} ] PENGINSTALAN SCRIPT SELESAI KETIK Y UNTUK RE
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
 reboot
-exit 0
-else
-reboot
